@@ -1,0 +1,83 @@
+/*main content areas*/
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+header#maintitle {
+    width: 75%;
+    padding: 4% 17% 2% 8%;
+    border: 1px solid black;
+    background-color: #1b2c54;
+    text-align: center;
+}
+/*altered padding so that more at top than at bottom*/
+h1 {
+    font-size: 40px;
+    color: #ffffff;
+}
+nav {
+    width: 94%;
+    padding: 0% 3% 0% 3%;
+    background-color: #E5B6AF;
+}
+#content {
+    width: 45%;
+    padding: 3% 15% 3% 10%;
+    float: left;
+}
+aside#sidebar {
+    float: right;
+    padding: 3%;
+    width: 24%;
+    background-color: #E5B6AF;
+}
+footer {
+    clear: both;
+    width: 94%;
+    padding: 3%;
+    background-color: #1b2c54;
+}
+/*navigation styles*/
+nav ul li {
+    display: inline-block;
+    padding: 15px 1.5% 15px 1.5%;
+    background-color: #80CEFF;
+    margin: 0.5%;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+nav ul li a:link {
+    color: #fff;
+}
+nav ul li a:visited {
+    color: #fff;
+}
+nav ul li a:hover {
+    color: #1b2c54;
+}
+nav ul li a:active {
+    color: #ff0000;
+}
+/* media screen sizes */
+@media all and (max-width : 768px){
+    header {
+        text-align: center;
+    }
+    nav {
+        text-align: center;
+    }
+    #content {
+        width: 94%;
+        padding: 3%;
+    }
+    #sidebar {
+        display: none;
+    }
+    nav ul li {
+        display: block;
+        width: 94%;
+    }
+}
